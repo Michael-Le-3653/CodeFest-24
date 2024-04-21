@@ -1,0 +1,12 @@
+{
+    "User": [
+        "my tv is broken",
+        "i need a technician to come look at it tomorrow",
+        "i want a comcast technician to come look at it tomorrow at 1 PM"
+    ],
+    "AI": [
+        "I'm sorry to hear that. Have you tried contacting a repair technician or the manufacturer for assistance?",
+        "I'm sorry, I cannot assist with scheduling services. You will need to contact a technician or service provider directly to request a visit.",
+        "Please contact Comcast customer service to schedule a technician to come and look at your issue tomorrow at 1 PM."
+    ]
+}
