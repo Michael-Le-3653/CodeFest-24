@@ -4,13 +4,14 @@ import InputField from "@/components/InputField";
 import Header from "@/components/Header";
 import ReportsTable from '@/components/ReportsTable'
 import prisma from '@/lib/prisma'
+import { GetStaticProps, GetStaticPropsContext } from 'next'
 
-async function getReports (){
-  const reports = await prisma.report.findMany({
-    where: {published:true},
-  })
-  return reports
-}
+// async function getReports (){
+//   const reports = await prisma.report.findMany({
+//     where: {published:true},
+//   })
+//   return reports
+// }
 
 export default function Home() {
   return (
